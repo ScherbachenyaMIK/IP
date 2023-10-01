@@ -12,7 +12,6 @@ public class Main {
         _FileReader FR = new _FileReader("./input.txt");
         String fstr = FR.ReadString();
         String sstr = FR.ReadString();
-        int P = FR.ReadInteger();
         StringTokenizer ST = new StringTokenizer(fstr);
         ArrayList<String> words = new ArrayList<String>();
         while (ST.hasMoreTokens())
